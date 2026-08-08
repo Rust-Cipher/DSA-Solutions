@@ -1,3 +1,4 @@
+import java.util.Arrays;
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Arrays.sort(nums);
@@ -11,7 +12,7 @@ class Solution {
             if(sum == target){
                 indexes[0] = left;
                 indexes[1] = right;
-            }else if( sum < target){
+            }else if( sum < target){git 
                 left ++;
 
             }else if(sum > target ){
